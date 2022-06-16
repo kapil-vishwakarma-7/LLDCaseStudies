@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Concepts/Concepts.iml" filepath="$PROJECT_DIR$/Concepts/Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignABird/DesignABird.iml" filepath="$PROJECT_DIR$/DesignABird/DesignABird.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/LLDCaseStudies.iml" filepath="$PROJECT_DIR$/LLDCaseStudies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParkingLot/ParkingLot.iml" filepath="$PROJECT_DIR$/ParkingLot/ParkingLot.iml" />
     </modules>
   </component>
 </project>

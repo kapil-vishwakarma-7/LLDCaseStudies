@@ -1,2 +1,4 @@
-package com.parking.entity;public class ParkingLot {
+package com.parking.entity;
+
+public class ParkingLot {
 }

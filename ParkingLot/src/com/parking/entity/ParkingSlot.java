@@ -1,2 +1,4 @@
-package com.parking.entity;public interface ParkingSlot {
+package com.parking.entity;
+
+public interface ParkingSlot {
 }

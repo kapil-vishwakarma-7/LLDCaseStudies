@@ -1,0 +1,19 @@
+---------------------------------
+         Design a Bird
+---------------------------------
+Requirements :
+
+1.Create following types of Bird
+    1. Pigeon
+    2. Crow
+    3. Sparrow
+    4. Ostrich
+    5. Penguin
+2. Penguin & Ostrich don't fly.
+3. Crow & Pigeon fly in same way & sparrow flies in different way
+4. Every bird can Eat, Sing.
+
+
+
+
+
