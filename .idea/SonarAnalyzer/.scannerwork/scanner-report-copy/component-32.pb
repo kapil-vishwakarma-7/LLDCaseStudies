@@ -1,0 +1,1 @@
+  2javaXhrHDesignPatterns/src/com/designpattern/creational/singleton/Singleton.java

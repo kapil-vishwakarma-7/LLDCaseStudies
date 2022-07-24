@@ -1,0 +1,1 @@
+ 2javaXhr2ParkingLot/src/com/parking/entity/ParkingSlot.java

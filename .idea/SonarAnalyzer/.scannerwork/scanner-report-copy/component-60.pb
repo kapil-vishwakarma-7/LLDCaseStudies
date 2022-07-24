@@ -1,0 +1,1 @@
+< 2javaXhrRDesignPatterns/src/com/designpattern/structural/adapter/payment/PaymentStatus.java

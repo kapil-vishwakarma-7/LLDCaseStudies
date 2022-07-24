@@ -1,0 +1,1 @@
+= 2javaXhrSDesignPatterns/src/com/designpattern/structural/adapter/payment/PaymentGateway.java

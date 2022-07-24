@@ -1,0 +1,81 @@
+package com.snakeandlader.model;
+
+import com.snakeandlader.startegy.ButtonStartStrategy;
+import lombok.Getter;
+
+import java.util.ArrayList;
+import java.util.List;
+@Getter(lazy = true)
+public class Game {
+    private Board board;
+    private Dice dice;
+    private List<Player> players;
+    private GameState gameState;
+    private List<Player> ranking;
+    private Integer lastPlayerTurn;
+    private Integer buttonsPerPlayer;
+    private List<ButtonStartStrategy> buttonStartStrategies;
+
+    private Game(final Builder builder){
+        this.players = new ArrayList<>();
+        this.ranking = new ArrayList<>();
+        this.lastPlayerTurn = -1;
+        this.buttonStartStrategies = new ArrayList<>();
+
+        this.board = new Board(builder.boardSize);
+        this.dice = builder.dice;
+        this.players.addAll(builder.players);
+        this.buttonStartStrategies.addAll(builder.buttonStartStrategies);
+        this.buttonsPerPlayer = builder.buttonsPerPlayer;
+    }
+
+    public static Builder builder(){
+        return new Builder();
+    }
+    public static class Builder {
+        private Integer boardSize;
+        private Dice dice;
+        private List<Player> players;
+        private Integer buttonsPerPlayer;
+        private List<ButtonStartStrategy> buttonStartStrategies;
+
+        public Builder(){
+            this.players = new ArrayList<>();
+            this.buttonStartStrategies = new ArrayList<>();
+        }
+
+        public Builder boardSize(final Integer boardSize){
+            this.boardSize = boardSize;
+            return this;
+        }
+        public Builder dice(final Dice dice){
+            this.dice = dice;
+            return this;
+        }
+        public Builder addPlayer(final Player player){
+            this.players.add(player);
+            return this;
+        }
+        public Builder buttonPerPlayer(final Integer buttonsPerPlayer){
+            this.buttonsPerPlayer = buttonsPerPlayer;
+            return this;
+        }
+        public Builder addButtonStartStrategy(final ButtonStartStrategy buttonStartStrategy) {
+            this.buttonStartStrategies.add(buttonStartStrategy);
+            return this;
+        }
+        public Game build(){
+            return new Game(this);
+        }
+    }
+
+    public GameState getGameState(){
+        return this.gameState;
+    }
+    public List<Player> getPlayers(){
+        return new ArrayList<>(this.players);
+    }
+    public Integer getButtonsPerPlayer(){
+        return this.buttonsPerPlayer;
+    }
+}

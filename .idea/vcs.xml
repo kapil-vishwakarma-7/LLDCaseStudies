@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DesignAPen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Scaler-schema" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/netflix-schema" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scaler-schema-design" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ticktactoe" vcs="Git" />
   </component>
 </project>

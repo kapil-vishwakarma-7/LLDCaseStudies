@@ -1,0 +1,1 @@
+ 2javaXhrCDesignPatterns/src/com/designpattern/creational/prototype/Crow.java

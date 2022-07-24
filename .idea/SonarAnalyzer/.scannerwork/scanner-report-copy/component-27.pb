@@ -1,0 +1,1 @@
+ 2javaXhrEDesignPatterns/src/com/designpattern/creational/prototype/Client.java

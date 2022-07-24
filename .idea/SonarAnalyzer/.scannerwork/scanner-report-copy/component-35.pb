@@ -1,0 +1,1 @@
+# 2javaX*hraDesignPatterns/src/com/designpattern/creational/builder/examParameterClass/UserExamParameter.java

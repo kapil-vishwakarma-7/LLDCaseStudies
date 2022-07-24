@@ -1,0 +1,1 @@
+; 2javaXhrUDesignPatterns/src/com/designpattern/structural/adapter/payment/payu/PayUGateway.java

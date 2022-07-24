@@ -1,0 +1,1 @@
+@ 2javaXhrbDesignPatterns/src/com/designpattern/structural/adapter/payment/RazorpayPaymentGatewayAdapter.java

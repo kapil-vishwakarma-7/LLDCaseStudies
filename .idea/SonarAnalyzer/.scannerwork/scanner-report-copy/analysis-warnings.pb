@@ -1,0 +1,2 @@
+Ó
+‰Missing blame information for 106 files. This may lead to some features not working correctly. Please check the analysis logs and refer to <a href="/documentation/analysis/scm-integration/" target="_blank">the documentation</a>.·Ù∑≠¢0

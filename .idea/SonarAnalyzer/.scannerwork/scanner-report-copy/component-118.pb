@@ -1,0 +1,1 @@
+v 2javaX	hrPsnakeandlader/src/main/java/com/snakeandlader/startegy/NormalButtonStrategy.java

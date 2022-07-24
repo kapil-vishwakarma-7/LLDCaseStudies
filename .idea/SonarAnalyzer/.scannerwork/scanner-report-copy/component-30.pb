@@ -1,0 +1,1 @@
+ 2javaXhrKDesignPatterns/src/com/designpattern/creational/prototype/BirdSantuary.java

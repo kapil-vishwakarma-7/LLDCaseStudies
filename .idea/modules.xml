@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/LLDCaseStudies.iml" filepath="$PROJECT_DIR$/LLDCaseStudies.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingLot/ParkingLot.iml" filepath="$PROJECT_DIR$/ParkingLot/ParkingLot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/SplitWise/SplitWise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scaler-schema-design/scaler-schema-design.iml" filepath="$PROJECT_DIR$/scaler-schema-design/scaler-schema-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticktactoe/ticktactoe.iml" filepath="$PROJECT_DIR$/ticktactoe/ticktactoe.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,1 @@
+' 2javaXhr[DesignPatterns/src/com/designpattern/creational/factory/tax/simpleFactor/SalaryDetails.java

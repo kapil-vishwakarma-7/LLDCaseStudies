@@ -1,0 +1,1 @@
+x 2javaXhrJsnakeandlader/src/main/java/com/snakeandlader/model/ForeignEntityType.java

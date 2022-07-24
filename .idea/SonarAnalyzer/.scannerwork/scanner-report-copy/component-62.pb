@@ -1,0 +1,1 @@
+> 2javaXhrMDesignPatterns/src/com/designpattern/structural/adapter/payment/Flipkart.java
