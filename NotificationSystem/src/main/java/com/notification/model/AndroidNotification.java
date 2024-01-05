@@ -12,7 +12,6 @@ public class AndroidNotification extends Notification{
 
     private AndroidNotification(String message) {
         super(message, NotificationType.ANDROID);
-        this.androidNotificationAdapter = new FirebaseAndroidNotificationAdapter();
     }
 
     public static Builder builder(){
@@ -26,7 +25,7 @@ public class AndroidNotification extends Notification{
     @Override
     public String toString() {
         return super.toString()
-                + String.format("DeviceID : %s, \n PortID : %s, \nNotificationHeading : %s",
+                + String.format("DeviceID : %s, PortID : %s, NotificationHeading : %s",
                 this.deviceId, this.portId, this.notificationHeading);
     }
 
@@ -36,6 +35,8 @@ public class AndroidNotification extends Notification{
         private String deviceId;
         private String portId;
         private String notificationHeading;
+
+        private AndroidNotificationAdapter androidNotificationAdapter;
 
         public Builder message(String message){
             this.message = message;
@@ -53,11 +54,21 @@ public class AndroidNotification extends Notification{
             this.notificationHeading = notificationHeading;
             return this;
         }
+
+        public Builder notificationAdapter(AndroidNotificationAdapter androidNotificationAdapter){
+            this.androidNotificationAdapter = androidNotificationAdapter;
+            return this;
+        }
         public AndroidNotification build(){
             AndroidNotification notification = new AndroidNotification(message);
+            if(this.androidNotificationAdapter == null){
+                this.androidNotificationAdapter = new FirebaseAndroidNotificationAdapter();
+            }
+            notification.androidNotificationAdapter = this.androidNotificationAdapter;
             notification.notificationHeading = this.notificationHeading;
             notification.deviceId = this.deviceId;
             notification.portId = this.portId;
+
             return notification;
         }
     }

@@ -14,8 +14,10 @@
         <module name="Scaler-schema" />
         <module name="NotificationSystem" />
         <module name="TaxCalculation" />
+        <module name="CoupanSystem" />
         <module name="snakeandlader" />
         <module name="netflix-schema" />
+        <module name="BookMyShow" />
         <module name="TicTacToeLLD" />
         <module name="tictactoe2" />
       </profile>

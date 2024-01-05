@@ -16,7 +16,7 @@ public abstract class Notification {
 
     @Override
     public String toString() {
-        return String.format("Date : %s, \n NotificationType : %s, \n Message: %s \n",
+        return String.format("Date : %s, NotificationType : %s, Message: %s ",
                 this.timestamp.toString(), this.notificationType.toString(),
                 this.message);
     }
